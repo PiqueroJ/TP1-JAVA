@@ -51,9 +51,6 @@ public class Ej1 {
         //Número restante
         restante = suma - mayor - menor;
 
-        //Divisibilidad por 3 
-        boolean divisible = (restante % 3 == 0);
-
         //Resultados 
         System.out.println("\nRESULTADOS ");
         System.out.println("Numeros ingresados: ");
@@ -66,7 +63,13 @@ public class Ej1 {
         System.out.println("Mayor: " + mayor + "  |  Menor: " + menor);
         System.out.println("Producto: " + producto);
         System.out.println("Numero restante: " + restante);
-        System.out.println("Divisible por 3: " + (divisible ? "Si" : "No"));
+        //Divisibilidad por 3
+        System.out.println("Divisible por 3: ");
+        if(restante % 3 == 0){
+        System.out.println("Si");
+        }else{System.out.println("NO");}
+
+         sc.close();
     }
 }
     
