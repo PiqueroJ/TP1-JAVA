@@ -67,8 +67,6 @@ public class Ej1 {
         System.out.println("Producto: " + producto);
         System.out.println("Numero restante: " + restante);
         System.out.println("Divisible por 3: " + (divisible ? "Si" : "No"));
-
-        sc.close();
     }
 }
     
